@@ -5,6 +5,7 @@
 #include "SBuildingAttributes.h"
 #include "SSimResults.h"
 #include "CMap.h"
+#include <chrono>
 
 class CApplication
 {

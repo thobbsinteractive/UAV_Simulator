@@ -98,7 +98,7 @@ void CApplication::Start()
 	MSG msg;
 	::ZeroMemory(&msg, sizeof(MSG));
 
-	float lastTime = (float)timeGetTime();
+	static std::chrono::system_clock::time_point lastTime = std::chrono::system_clock::now();
 
 	while((msg.message != WM_QUIT)&&(m_pDisplayGraphics->SimulationComplete() == false))
 	{
@@ -110,11 +110,19 @@ void CApplication::Start()
 		else
         {	
 			// Caculates time between each frame
-			float currTime  = (float)timeGetTime();
-			float timeDelta = (currTime - lastTime)*0.001f;
+			std::chrono::system_clock::time_point currTime  = std::chrono::system_clock::now();
+			std::chrono::duration<double, std::milli> timeDelta = (currTime - lastTime) * 0.001f;
 
-			m_pDisplayGraphics->UpdateObjects(timeDelta);
-			m_pDisplayGraphics->Draw(timeDelta);
+			m_pDisplayGraphics->UpdateObjects(timeDelta.count());
+			m_pDisplayGraphics->Draw(timeDelta.count());
+
+			std::chrono::duration<double, std::milli> renderTimeMS = std::chrono::system_clock::now() - currTime;
+
+			//lock to 60 fps
+			if (renderTimeMS.count() > 0 && renderTimeMS.count() < 16.6f)
+			{
+				Sleep(16.6f - renderTimeMS.count());
+			}
 
 			lastTime = currTime;	
         }
