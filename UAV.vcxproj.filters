@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{238479e8-28fd-48c6-9f04-c03bd5edbefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{970ecabb-ad73-4eab-a8dd-1800e7a731d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Control">
+      <UniqueIdentifier>{81231506-fad9-48d0-b446-a192bd08ed50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Libaries">
+      <UniqueIdentifier>{0d1d0cf3-f2ec-4d6f-860e-be3b0268191b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{053e15ac-d0ca-45ae-9418-c95e6cd96df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{0d8a4c1c-faf7-4605-8f4d-8c08fe62a3a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Control">
+      <UniqueIdentifier>{c71f2962-7e99-4edf-a0fd-e1dbf906dd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Libaries">
+      <UniqueIdentifier>{06577a53-3bef-4e6f-840f-8c69ab5f3ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{9b378a37-dac1-4086-b969-95ff6c5bb250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT\Header Files">
+      <UniqueIdentifier>{0b0539b9-5c1a-4306-8078-98ee64893689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT\Source Files">
+      <UniqueIdentifier>{cbc36db7-ee2d-42c9-bdbe-e9bc79774894}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enumerated.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DBoundingSphere.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DBuilding.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DDisplay.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DInitialiseDevice.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DLight.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DMyCamera.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DObject.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DSound.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DUAV.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DViewObject.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SSimResults.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SUavAttributes.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dfont.h">
+      <Filter>Header Files\External Libaries</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dutil.h">
+      <Filter>Header Files\External Libaries</Filter>
+    </ClInclude>
+    <ClInclude Include="dsutil.h">
+      <Filter>Header Files\External Libaries</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>Header Files\External Libaries</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\External Libaries</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\dxerr.h">
+      <Filter>DXUT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DXUT.h">
+      <Filter>DXUT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DXUTenum.h">
+      <Filter>DXUT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DXUTmisc.h">
+      <Filter>DXUT\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CD3DBoundingSphere.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3DBuilding.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3DDisplay.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3DInitialiseDevice.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3DLight.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3DMyCamera.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3DObject.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3DSound.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3DUAV.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3DViewObject.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuItem.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CApplication.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dfont.cpp">
+      <Filter>Source Files\External Libaries</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dutil.cpp">
+      <Filter>Source Files\External Libaries</Filter>
+    </ClCompile>
+    <ClCompile Include="dsutil.cpp">
+      <Filter>Source Files\External Libaries</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>Source Files\External Libaries</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\External Libaries</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\dxerr.cpp">
+      <Filter>DXUT\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DXUT.cpp">
+      <Filter>DXUT\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DXUTenum.cpp">
+      <Filter>DXUT\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DXUTmisc.cpp">
+      <Filter>DXUT\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

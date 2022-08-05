@@ -1,0 +1,5 @@
+#ifndef INC_WINDOWING_H
+#define INC_WINDOWING_H
+
+
+#endif //INC_WINDOWING_H
